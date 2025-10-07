@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudo CSS</title>
+  </head>
+  <body>
+    <!-- Inline CSS -->
+    <h1 style="color: blue">Mudar a cont com InLine</h1>
+    <h2 style="color: red">Programado por JulianoMarthins</h2>
+
+    <hr></hr>
+
+    <!-- Múltiplas regras -->
+    <h2 style="color: purple; font-size: 40px; 
+    border-bottom: 4px solid red">
+        Mudar cor e tamanho da fonte
+    </h2>
+
+
+    <!-- Internal CSS -->
+     <p>Este paragráfo foi criado para os testes da tag style</p>
+     <style>
+        p {
+            color: green;
+            font-size: 40px;
+        }
+     </style>
+     <p>Este paragrafo serve apenas para mostrar a padronização da
+        estilização de todos os paragrafos da página HTML
+     </p>
+
+
+     <!-- External CSS -->
+      <link rel="stylesheet" href="titles.css">
+      <link rel="stylesheet" href="lists.css">
+      <link rel="stylesheet" href="styles.css">
+      <h3>Testando nova estilização</h3>
+
+
+      <!-- 
+        O CSS é carregado a partir de uma ordem específica, se temos
+        estilos misturados, (inline, internal e external), qual será
+        aplicado?
+        Todos eles serão, mas com a seguinte ordem de prescendência:
+        
+        1° inlie
+        2° internal
+        3° external
+        4° Padrão do navegador
+
+        Esta regra funciona quando temos estilos em um mesmo elemento, 
+        interno e externo tem a mesma prioridade, a útilma regra ganha
+        a "corrida"
+        -->
+
+
+        <!-- Multiplos CSS -->
+         <ul>
+            <li>Banana</li>
+            <li>Uva</li>
+            <li>Mamão</li>
+            <li>Laranja</li>
+            <li>Abacate</li>
+         </ul>
+
+         <!-- Desafio -->
+          <h4>Realização do desafio do curso</h4>
+  </body>
+</html>
