@@ -14,3 +14,56 @@ h3 {
   color: yellow;
   padding: 10px;
 }
+
+/* Ordem das regas */
+
+h2 {
+  border-bottom: 2px solid darkred;
+}
+
+.classe {
+  border-bottom: 3px solid darkblue;
+}
+
+#id {
+  border-bottom: 4px solid darkgreen;
+}
+
+/* Nome de cores */
+.color {
+  color: purple;
+}
+
+#hexa {
+  color: #55a314;
+}
+
+.rgba {
+  color: rgba(150, 199, 045);
+}
+
+.opaco {
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+}
+
+.imagem {
+  color: rgb(255, 253, 253);
+  background-image: url(img/nature.jpg);
+  padding: 10px;
+}
+
+/* Centralizando BG imagem */
+
+.centralizada,
+.nao_centralizada {
+  height: 400px;
+  width: 400px;
+  background-image: url("img/bridge.jpg");
+}
+
+.centralizada {
+  background-position: center;
+  background-size: cover;
+}

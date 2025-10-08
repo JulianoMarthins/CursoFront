@@ -103,7 +103,70 @@
 
           <h1 id="titulo_exclusivo">Titulo utilizando ID</h1>
 
-            
 
+          <!-- A ordem dos selectores
+           Nós aprendemos sobre o seletor de id e classe
+           E se a tag estiver com id e uma classe, o que acontece?
+           Como nas maneiras de adicionar CSS, temos também uma ordem
+           Que é: 
+
+           1° ID
+           2° Class
+           3° Seletor de tag
+           
+           Então o id vai vencer todos os outros, utilize isso ao seu
+           favor
+           Regras que não entram em conflitos serão aplicadas normamente
+           -->
+
+           <!-- Multiplas regras, ordems do CSS -->
+            <h2 id="id" class="classe">Testo com ID e classe</h2>
+            <h2 id="id">Texto somente com ID</h2>
+            <h2 class="classe">Texto somente com classe</h2>
+
+
+            <!-- Em CSS as cores são divididas em grupos, tempos:
+             Nomes das cores, como red, blue, green, elas não são
+             muito utilizadas
+             RGB: configuramos as tonalidades de red, green e blue
+             Hexadecimal: Uma união de letras e números que podem criar
+             uma cor, a maneira mais utilizada
+             HSL: Hue, saturation e lightness, mudando esses valores,
+             temos uma cor -->
+
+
+             <!-- Nomes das cores
+              Nós utilizamos muito essas maneiras até agora, mas em
+              projetos reais naõ é tão empregada, pois ela nos limita
+              a apenas as cores com nomes existentes. No mundo real 
+              precisamos de mais possibilidades, para não limitar os
+              designers.
+              O nome das cores consistem na utilização do nome real da
+              cor como valor propriedade-->
+
+              <p class="color">Qualque texto para nome de cores</p>
+
+              <!-- Hexadecimal é a abordagem mais utilizada
+               basicamente temos que inserir 6 digitos, precedidos de
+               uma #
+               Os dois primeiro representam o tom de vermelho, depois o 
+               tom de verde e por fim o tom de azul.
+               
+               Os valores vão de 0 a 9 e A a F
+               O 0 é o valor mais escuro enquanto o F é o mais claro.
+               O valor de #000 é a cor preta e #FFF a cor branca-->
+
+               <p id="hexa">Testando as cores exadecimais</p>
+
+
+               <p class="rgba">Este foi estilizado com RGBA</p>
+
+
+               <p class="opaco">Texto opaco</p>
+
+               <p class="imagem">Imagem como background</p>
+    
+            <div class="centralizada"></div>
+            <div class="nao_centralizada"></div>
   </body>
 </html>
