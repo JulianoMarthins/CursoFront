@@ -1,0 +1,38 @@
+h2 {
+  color: purple;
+  font-size: 40px;
+}
+
+/* Altura e largura */
+
+.height-width {
+  height: 200px;
+  width: 100px;
+  background-color: darkred;
+}
+
+.height-width-2 {
+  height: 300px;
+  background-color: #333333;
+}
+
+/* Padding */
+.without-padding,
+.with-padding {
+  background-color: #111;
+  color: #fff;
+}
+
+.with-padding {
+  padding: 20px;
+}
+
+/* Padding individual */
+.padding-individual {
+  background-color: #222;
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}

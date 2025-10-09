@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <link rel="stylesheet" href="boxModel.css" />
+  </head>
+  <body>
+    <!-- Height e Width
+     
+    A altura e a largura são o core do box model, estas propriedades
+    consistem no conteúdo do elemento. 
+    Podemos alterar as duas e mudar o tamanho do elemento na tela.
+    Alguns elementos HTML, os blocks elements, já vem com 100% de 
+    largura, preenchendo a tela toda na horizontal
+    -->
+
+    <h2>Exemplo da criação de height e width</h2>
+
+    <div class="height-width"></div>
+    <br />
+    <div class="height-width-2"></div>
+
+    <!-- Padding
+    
+    Padding é o espaço entre o conteúdo e a borda do elemento,
+    também conhecimento como espaçamento interno
+    Este recurso é utilizando para criar uma distância entre o
+    conteúdo (texto) e a extremidade do elemento;
+    -->
+
+    <h2>Exemplo do uso do padding</h2>
+
+    <div class="without-padding">Este box model não tem padding</div>
+    <br />
+    <div class="with-padding">Este box model tem padding</div>
+
+    <!-- 
+    Lados Individuais
+    
+    Podemos adicionar o padding aos lados individuais de um elemento.
+    A regra é: padding-*
+    Onde * pode ser: top, lefh, right ou bottom.
+    Assim teremos valores customizados em cada um dos lados do elemento.
+    -->
+    <br />
+    <p class="padding-individual">Este elemento tem paddings diferentes</p>
+
+    <!--
+    Shorthand properties
+    
+    As propriedades de shorthand nos permitem adicionar padding a todas
+    as direções com uma única regra.
+    Apenas precisamos utilizar a regra padding, e configurar top, right,
+    bottom e left nessa ordem;
+    Exemplo: padding: 10px, 5px, 12px, 20px.
+
+    Esta regra de shorthand pode ser aplicada para outras propriedades, 
+    como a margin;
+    -->
+  </body>
+</html>
